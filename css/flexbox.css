@@ -1,0 +1,128 @@
+
+html, body {
+   height: 100%;
+   padding: 0;
+   margin: 0;
+   font-family: consolas, Helvetica, Arial, sans-serif;
+ }
+ 
+text {
+   font-family: consolas, Helvetica, Arial, sans-serif;
+}
+
+.main-page {
+    min-height:100%;
+    position:relative;
+}
+
+/* Main page content */
+.indexpage-container1 {
+    display: flex;
+    flex-direction:row;
+    width:100%;
+}
+  
+.indexpage-container1-stuff {
+    width:1280px;
+    margin:auto;
+    text-align:center;
+}
+
+
+/* Page Header */
+
+.header-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    background-color: #0f377f;
+    width: 100%;
+    color: #ffffff;
+    border-style: none;
+}
+
+.item-title {
+    order: 1;
+    flex-grow: 2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.item-user {
+    order: 2;
+    flex-grow: 1;
+    text-align: right;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+/* Page Footer */
+ 
+.footer-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 5px 0px 0px 0px;
+    background-color: #0f377f;
+    border-style: none;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+    height:70px;
+    text-align:center;
+}
+
+.footeritem-empty {
+    order: 1;
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 2px;
+    height:66px;
+}
+
+.footeritem-copy {
+    order: 2;
+    flex-grow: 2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 2px;
+    height:66px;
+}
+
+.footeritem-ssl {
+    order: 3;
+    flex-grow: 1;
+    text-align: right;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 2px;
+    height:66px;
+}
+
+.footer-normal {
+    font-size: 14px;
+    color: #ffffff;
+    padding: 3px;
+    margin: auto;
+    width: 200px;
+}
+
+.footer-bold {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    margin: auto;
+    width: 300px;
+}
